@@ -15,7 +15,7 @@ end
 
 def long_planeteer_calls(call)
   # Your code here
-  call.map do |word|
+  call.each do |word|
     if word.length > 4
       return true
       break
