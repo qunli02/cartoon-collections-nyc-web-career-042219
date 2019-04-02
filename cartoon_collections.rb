@@ -8,9 +8,8 @@ end
 def summon_captain_planet(call)
   # Your code here
   call.map do |word|
-    cap = word.shift
-    cap.upcase + 
-    word.upcase + "!"
+    word[0] = word.upcase[0]
+    word + "!"
   end
 end
 
