@@ -1,4 +1,4 @@
-def roll_call_dwarves(names)
+def roll_call_dwarves
   # Your code here
   names.each do |name|
     puts name
