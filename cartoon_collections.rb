@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   # Your code here
   names.each_with_index do |name, i|
-    puts (names.index(name) + 1).to_s + ". " + name
+    puts i.tos + ". " + name
   end
 end
 
